@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+    	<title>About Us</title>
+    	<link rel="stylesheet" href="design.css">
+    	<!-- Created By Preetam Beeravelli -->
+    </head>
+    <body>
+    	
+    		<?php 
+    		  //including the file which contains functions for printing header and footer
+    		  include('headandfoot.php');
+    		  //calling function header to print the header
+    		  headerPrint();
+    		?>
+    	
+    			<h1 class = "pageHeading" align="center"> About us </h1>
+    
+    			<div class = "pageBody">
+    				<h2 align="center">Meet the Creators of this website and organization</h2>
+    				
+        				<p>
+            				<h3>1)Preetam Beeravelli</h3>
+            					Id Number:700723604
+            					<p>Contact me at:</p>
+            					<a href="mailto:pxb36040@ucmo.edu" style="color:white;">Work mail</a><br>
+            					<a href="mailto:preetambeeravelli@gmail.com" style="color:white;">Personal mail</a><br>
+        				</p>
+        				<p>
+            				<h3>2)Shivakumar Davuluri</h3>
+            					 Id Number:700725267
+            					<h4>Contact me at:</h4>
+            					<a href="mailto:mxd52670@ucmo.edu" style="color:white;">Work mail</a><br>
+            					<a href="mailto:dmvsk2076@gmail.com" style="color:white;">Personal mail</a><br>
+        				</p>
+        				<p>
+            				<h3>3)Achyuth Kumar Narra</h3>
+            					 Id Number:700724924
+            					<h4>Contact me at:</h4>
+            					<a href="mailto:Axn49240@ucmo.edu" style="color:white;">Work mail</a><br>
+            					<a href="mailto:Achyuthkumarnarra@gmail.com" style="color:white;">Personal mail</a><br>
+        
+        				</p>
+        				<p>
+        					<h3>Visit us at:</h3>
+        					<img src = "images/building.png" alt = "Organization image" height = "400" width = "1500" align="center">
+        					<h5 align="center">1101 NW Innovation Parkway, Lee's Summit, MO 64086</h5>
+        				</p>
+    			</div>
+    			<footer>
+    				
+        				<?php 
+        				//calling function header to print the footer
+        				footerPrint();
+        				?>
+    				
+    			</footer>
+	</body>
+</html>			
